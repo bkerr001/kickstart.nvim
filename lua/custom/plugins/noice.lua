@@ -1,7 +1,4 @@
--- You can add your own plugins here or in other files in this directory!
---  I promise not to create any merge conflicts in this directory :)
---
--- See the kickstart.nvim README for more information
+-- lazy.nvim
 return {
     "folke/noice.nvim",
     event = "VeryLazy",
@@ -16,13 +13,4 @@ return {
       --   If not available, we use `mini` as the fallback
       "rcarriga/nvim-notify",
       }
-
-
-
-
-
-
-
-
-
-}
+  }
